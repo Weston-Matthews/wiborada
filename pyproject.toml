@@ -1,14 +1,15 @@
 [project]
 name = "wiborada"
-version = "0.1.0"
-description = ""
-authors = [
-    {name = "Your Name",email = "you@example.com"}
-]
+version = "0.2.0"
+description = "Personal library manager with shelves, tags, digital ebooks, ISBN lookup, and AI recommendations"
+authors = [{name = "Weston Matthews"}]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-]
+dependencies = []
+
+[project.optional-dependencies]
+ai = ["anthropic"]
+images = ["Pillow"]
 
 [tool.poetry]
 packages = [{include = "wiborada", from = "src"}]

@@ -1,0 +1,13 @@
+# Wiborada requirements
+# Core functionality uses only the Python standard library + Tkinter.
+# Tkinter is normally included with Python; on some Linux systems you may need:
+#   sudo apt install python3-tk   (or equivalent for your distro)
+
+# Optional — AI recommendations
+anthropic>=0.39.0
+
+# Optional — cover image display and processing
+Pillow>=10.0.0
+
+# Optional — for running tests
+pytest>=8.0.0
